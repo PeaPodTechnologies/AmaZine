@@ -1,0 +1,203 @@
+[debug] [2025-01-29T00:02:51.199Z] ----------------------------------------------------------------------
+[debug] [2025-01-29T00:02:51.201Z] Command:       /Users/jaydenlefebvre/.nvm/versions/node/v18.18.2/bin/node /usr/local/bin/firebase init --debug
+[debug] [2025-01-29T00:02:51.201Z] CLI Version:   9.16.6
+[debug] [2025-01-29T00:02:51.201Z] Platform:      darwin
+[debug] [2025-01-29T00:02:51.201Z] Node Version:  v18.18.2
+[debug] [2025-01-29T00:02:51.203Z] Time:          Tue Jan 28 2025 19:02:51 GMT-0500 (Eastern Standard Time)
+[debug] [2025-01-29T00:02:51.203Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-29T00:02:51.209Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-29T00:02:51.210Z] > authorizing via signed-in user (jayden.lefebvre@peapodtech.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jaydenlefebvre/Documents/GitHub/AmaZine
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-29T00:02:56.625Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-01-29T00:02:57.142Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-29T00:02:57.143Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project amazine-82c29 (AmaZine) 
+[info] 
+=== Storage Setup
+[error] 
+[error] Error: Cloud resource location is not set for this project but the operation you are attempting to perform in Cloud Storage requires it. Please see this documentation for more details: https://firebase.google.com/docs/projects/locations
+[debug] [2025-01-29T00:05:14.005Z] ----------------------------------------------------------------------
+[debug] [2025-01-29T00:05:14.007Z] Command:       /Users/jaydenlefebvre/.nvm/versions/node/v18.18.2/bin/node /usr/local/bin/firebase init --debug
+[debug] [2025-01-29T00:05:14.007Z] CLI Version:   9.16.6
+[debug] [2025-01-29T00:05:14.007Z] Platform:      darwin
+[debug] [2025-01-29T00:05:14.007Z] Node Version:  v18.18.2
+[debug] [2025-01-29T00:05:14.017Z] Time:          Tue Jan 28 2025 19:05:14 GMT-0500 (Eastern Standard Time)
+[debug] [2025-01-29T00:05:14.017Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-29T00:05:14.024Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-29T00:05:14.025Z] > authorizing via signed-in user (jayden.lefebvre@peapodtech.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jaydenlefebvre/Documents/GitHub/AmaZine
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-01-29T00:05:35.604Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-01-29T00:05:36.228Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-01-29T00:05:36.228Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project amazine-82c29 (AmaZine) 
+[info] 
+=== Storage Setup
+[error] 
+[error] Error: Cloud resource location is not set for this project but the operation you are attempting to perform in Cloud Storage requires it. Please see this documentation for more details: https://firebase.google.com/docs/projects/locations
+[debug] [2025-01-29T00:15:01.578Z] ----------------------------------------------------------------------
+[debug] [2025-01-29T00:15:01.580Z] Command:       /Users/jaydenlefebvre/.nvm/versions/node/v18.18.2/bin/node /usr/local/bin/firebase init --debug
+[debug] [2025-01-29T00:15:01.581Z] CLI Version:   9.16.6
+[debug] [2025-01-29T00:15:01.581Z] Platform:      darwin
+[debug] [2025-01-29T00:15:01.581Z] Node Version:  v18.18.2
+[debug] [2025-01-29T00:15:01.582Z] Time:          Tue Jan 28 2025 19:15:01 GMT-0500 (Eastern Standard Time)
+[debug] [2025-01-29T00:15:01.583Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-29T00:15:01.590Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-29T00:15:01.591Z] > authorizing via signed-in user (jayden.lefebvre@peapodtech.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jaydenlefebvre/Documents/GitHub/AmaZine
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] 
+=== Firestore Setup
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[info] 
+=== Storage Setup
+[error] 
+[error] Error: Cloud resource location is not set for this project but the operation you are attempting to perform in Cloud Storage requires it. Please see this documentation for more details: https://firebase.google.com/docs/projects/locations
+[debug] [2025-01-29T00:15:19.777Z] ----------------------------------------------------------------------
+[debug] [2025-01-29T00:15:19.778Z] Command:       /Users/jaydenlefebvre/.nvm/versions/node/v18.18.2/bin/node /usr/local/bin/firebase init --debug
+[debug] [2025-01-29T00:15:19.779Z] CLI Version:   9.16.6
+[debug] [2025-01-29T00:15:19.779Z] Platform:      darwin
+[debug] [2025-01-29T00:15:19.779Z] Node Version:  v18.18.2
+[debug] [2025-01-29T00:15:19.780Z] Time:          Tue Jan 28 2025 19:15:19 GMT-0500 (Eastern Standard Time)
+[debug] [2025-01-29T00:15:19.780Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-29T00:15:19.786Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-29T00:15:19.786Z] > authorizing via signed-in user (jayden.lefebvre@peapodtech.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jaydenlefebvre/Documents/GitHub/AmaZine
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2025-01-29T00:15:40.680Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2025-01-29T00:15:40.681Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2025-01-29T00:15:40.894Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Wed, 29 Jan 2025 00:15:42 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2025-01-29T00:15:40.913Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects  
+ {"projectId":"Test","name":"Test"}
+[debug] [2025-01-29T00:15:41.195Z] <<< HTTP RESPONSE 400 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Wed, 29 Jan 2025 00:15:43 GMT","server":"ESF","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=187","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2025-01-29T00:15:41.195Z] <<< HTTP RESPONSE BODY {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id must be at least 6 characters long"},{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2025-01-29T00:15:41.282Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:41:35)
+    at self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (node:events:517:28)
+    at Request.emit (node:domain:489:12)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (node:events:517:28)
+    at Request.emit (node:domain:489:12)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (node:events:631:28)
+    at IncomingMessage.emit (node:events:529:35)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1368:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2025-01-29T00:16:43.909Z] ----------------------------------------------------------------------
+[debug] [2025-01-29T00:16:43.911Z] Command:       /Users/jaydenlefebvre/.nvm/versions/node/v18.18.2/bin/node /usr/local/bin/firebase init --debug
+[debug] [2025-01-29T00:16:43.911Z] CLI Version:   9.16.6
+[debug] [2025-01-29T00:16:43.912Z] Platform:      darwin
+[debug] [2025-01-29T00:16:43.912Z] Node Version:  v18.18.2
+[debug] [2025-01-29T00:16:43.913Z] Time:          Tue Jan 28 2025 19:16:43 GMT-0500 (Eastern Standard Time)
+[debug] [2025-01-29T00:16:43.913Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-29T00:16:43.918Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-29T00:16:43.919Z] > authorizing via signed-in user (jayden.lefebvre@peapodtech.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/jaydenlefebvre/Documents/GitHub/AmaZine
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] 
+=== Storage Setup
+[error] 
+[error] Error: Cloud resource location is not set for this project but the operation you are attempting to perform in Cloud Storage requires it. Please see this documentation for more details: https://firebase.google.com/docs/projects/locations
