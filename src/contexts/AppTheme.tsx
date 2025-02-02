@@ -9,18 +9,14 @@ import { feedbackCustomizations } from '../theme/customizations/feedback';
 import { navigationCustomizations } from '../theme/customizations/navigation';
 import { surfacesCustomizations } from '../theme/customizations/surfaces';
 
-import { themeConfig } from '../theme/theme';
+import { themeConfig, colorSchemes } from '../theme/theme';
 
 interface AppThemeProps {
   children: React.ReactNode;
-  /**
-   * This is for the docs site. You can ignore it or remove it.
-   */
-  disableCustomTheme?: boolean;
   themeComponents?: ThemeOptions['components'];
 }
 
-export const theTheme = createTheme({
+const theThemeConfig = {
   // For more details about CSS variables configuration, see https://mui.com/material-ui/customization/css-theme-variables/configuration/
   ...themeConfig,
   components: {
@@ -30,17 +26,26 @@ export const theTheme = createTheme({
     ...navigationCustomizations,
     ...surfacesCustomizations,
   },
-  cssVariables: true,
-});
+  colorSchemes,
+  cssVariables: {
+    colorSchemeSelector: 'class',
+  },
+};
+
+export const theTheme = createTheme(theThemeConfig);
 
 export default function AppTheme(props: AppThemeProps) {
-  const { children, disableCustomTheme, themeComponents } = props;
+  const { children, themeComponents } = props;
   const theme = React.useMemo(() => {
-    return disableCustomTheme ? {} : { ...theTheme, components: { ...theTheme.components, ...themeComponents } };
-  }, [disableCustomTheme, themeComponents]);
-  if (disableCustomTheme) {
-    return <React.Fragment>{children}</React.Fragment>;
-  }
+    return createTheme({
+      // For more details about CSS variables configuration, see https://mui.com/material-ui/customization/css-theme-variables/configuration/
+      ...theThemeConfig,
+      components: {
+        ...theThemeConfig.components,
+        ...themeComponents,
+      },
+    });
+  }, [theThemeConfig, themeComponents]);
   return (
     <ThemeProvider theme={theme} disableTransitionOnChange>
       {children}
